@@ -48,13 +48,13 @@ p{
     text-indent: 15px;
 }
 
-div#rodape{
+footer.rodape{
     color: #777;
     margin: 30px 0;
     padding: 30px 0;
 }
 
-div#rodape img{
+footer.rodape img{
     margin-right: 30px;
     vertical-align: middle;
     width: 94px;

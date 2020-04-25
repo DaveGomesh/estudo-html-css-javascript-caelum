@@ -29,6 +29,7 @@ body{
     padding-right: 35px;
     width: 140px;
     padding-top: 7px;
+    margin-top: 17px;
 
     position: absolute;
     right: 0;
@@ -52,4 +53,137 @@ body{
 
 .menu-opcoes a{
     color: #003366;
+}
+
+.busca button{
+    background-image: url(../img/busca.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: none;
+
+    width: 20px;
+    height: 20px;
+
+    text-indent: -9999px;
+}
+
+.busca, .menu-departamentos{
+    background-color: #DCDCDC;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    width: 230px;
+    margin-right: 10px;
+
+    float: left;
+}
+
+.menu-departamentos{
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.busca h2, .busca form, .menu-departamentos h2{
+    margin: 10px;
+}
+
+.menu-departamentos li{
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 10px 5px;
+}
+
+.menu-departamentos a{
+    color: #333333;
+    text-decoration: none;
+}
+
+.busca input[type=search]{
+    width: 170px;
+}
+
+.destaques{
+    margin-top: 10px;
+}
+
+.painel{
+    margin: 10px 0;
+    padding: 10px;
+    width: 445px;
+}
+
+.painel h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.painel a{
+    color: #333333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.painel li{
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.novidades{
+    float: left;
+    background-color: #F5DCDC;
+}
+
+.mais-vendidos{
+    float: right;
+    background-color: #DCDCF5;
+}
+
+footer{
+    clear: both;
+    background-image: url(../img/fundo-rodape.png);
+    padding: 20px 0;
+}
+
+footer .container{
+    position: relative;
+}
+
+.social{
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+
+.social li{
+    float: left;
+    margin-left: 25px;
+}
+
+.social a{
+    height: 32px;
+    width: 32px;
+
+    display: inline-block;
+    text-indent: -99999999999px;
+}
+
+.social a[href*="facebook.com"]{
+    background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"]{
+    background-image: url(../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"]{
+    background-image: url(../img/googleplus.png);
 }
