@@ -1,0 +1,55 @@
+/* classe para centralizar qualquer elemento */
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
+body{
+    color: #333333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cabecalho{
+    position: relative;
+}
+
+.logotipo{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.sacola{
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+    text-align: right;
+    font-size: 14px;
+    padding-right: 35px;
+    width: 140px;
+    padding-top: 7px;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.menu-opcoes{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.menu-opcoes ul{
+    font-size: 15px;
+}
+
+.menu-opcoes li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes a{
+    color: #003366;
+}
