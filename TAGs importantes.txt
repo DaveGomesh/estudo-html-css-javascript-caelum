@@ -1,0 +1,37 @@
+html
+body
+head
+meta
+
+strong = negrito
+em = italico
+small = diminui o tamanho
+
+<figure>
+  <img src="caminho" alt="texto alternativo para caso nao for possivel carregar a imagem">
+  <figcaption>Legenda da imagem</figcaption>
+</figure>
+
+LISTAS
+<ul> (listas nao ordenadas) <ol> (listas ordenadas)
+  li (cada elemento da lista)
+  li
+  li
+</ul> </ol>
+
+<dl> (lista de definicao)
+  <dt> HTML (titulo)
+       <dd> É uma linguagem (definicao)
+</dl>
+
+*****Conceito: PADDING
+A propriedade padding é utilizada para definir um espaçamento interno em alguns elementos (por espaçamento interno queremos dizer a distância entre o limite do elemento, sua borda, e seu respectivo conteúdo).
+
+*****Conceito: MARGIN
+A propriedade margin é bem parecida com a propriedade padding, exceto que ela adiciona espaço após o limite do elemento, ou seja, é um espaçamento além do elemento em si.
+
+a (ancora, links)
+
+*****Conceito: DIV e SPAN
+Invariavelmente você vai cair algum dia num cenário onde não consegue achar a tag certa para aquele conteúdo. Nesse caso, pode usar as tags <div> e <span> que funcionam como coringas. São tags sem nenhum significado especial mas que podem servir para agrupar um certo conteúdo, tanto um bloco da página quanto um pedaço de texto.
+

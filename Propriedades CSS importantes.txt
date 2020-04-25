@@ -1,0 +1,18 @@
+color (cor do conteúdo)
+background-color (cor do fundo)
+
+font-family (define a fonte, ou a família [serif or sans-serif]
+font-style (estilo da fonte, como itálico ou oblique)
+text-align (alinhamento do texto)
+
+line-height (altura entre cada linha)
+letter-spacing (espaçamento entre cada letra)
+word-spacing (espaçamento entre cada palavra)
+text-indent (Indentação da primeira linha do texto)
+
+border (define bordas)
+border-color (cor das bordas)
+border-style (estilo das bordas)
+border-width (largura das bordas)
+
+	
