@@ -131,7 +131,7 @@ body{
 }
 
 .destaques{
-    margin-top: 10px;
+    margin-top: 35px;
 }
 
 .painel{
@@ -230,4 +230,96 @@ footer .container{
 
 .social a[href*="plus.google.com"]{
     background-image: url(../img/googleplus.png);
+}
+
+@media (max-width: 320px){
+    .container{
+        width: 96%;
+    }
+
+    header h1{
+        text-align: center;
+    }
+
+    header h1 img{
+        max-width: 50%;
+    }
+
+    .sacola{
+        display: none;
+    }
+
+    .menu-opcoes{
+        margin-top: 30px;
+        position: static;
+        text-align: center;
+    }
+
+    .menu-opcoes ul li{
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .busca, .menu-departamentos, .banner-destaques img{
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .painel{
+        width: auto;
+    }
+
+    .painel li{
+        width: 30%;
+    }
+
+    .painel li img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 939px){
+    .container{
+        width: 94%;
+    }
+
+    header h1{
+        text-align: center;
+    }
+
+    header h1 img{
+        max-width: 50%;
+    }
+
+    .sacola{
+        display: none;
+    }
+
+    .menu-opcoes{
+        margin-top: 30px;
+        position: static;
+        text-align: center;
+    }
+
+    .menu-opcoes li{
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .busca, .menu-departamentos, .banner-destaques img{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .painel{
+        width: auto;
+    }
+
+    .painel li{
+        width: 30%;
+    }
+
+    .painel li img{
+        width: 100%;
+    }
 }
