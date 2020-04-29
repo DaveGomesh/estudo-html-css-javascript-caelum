@@ -51,6 +51,18 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label for="qtd">Quantidade</label>
+                                <input type="number" id="qtd" min="1" max="99" value="1" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="total">Total:</label>
+                                <output id="total" for="qtd preco" class="form-control">R$129,90</output>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
                         <div class="card-header">
                             <h2>Sua compra</h2>
                         </div>
@@ -68,7 +80,7 @@
                                 <dd>40</dd>
                     
                                 <dt>Preço</dt>
-                                <dd>R$129,90</dd>
+                                <dd id="preco">R$129,90</dd>
                             </dl>
                         </div>
                     </div>
@@ -138,5 +150,6 @@
         </div>
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/total.js"></script>
     </body>
 </html>
